@@ -159,6 +159,14 @@ font-weight: 700;
 .resume-container hr{
      margin:30px;
 }
+/* footer style  */
+
+footer{
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding:130px 200px ;
+}
 
 
 
