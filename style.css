@@ -186,5 +186,46 @@ footer{
      background: #fff;
      border:0;
      width:100%;
+}
+.hide{
+    display: none;
+}
 
+
+/* responsive part */
+
+@media screen and (max-width:576px) {
+    .skills-container, .resume-container{
+        flex-direction: column;
+    }
+    nav > ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .banner {
+        padding:0;
+        flex-direction: column;
+    }
+    .banner .profile-picture{
+        width:378px;
+    }
+    .about-info-container > div {
+        flex-direction: column;
+    }
+    .about{
+        padding: 0;
+    }
+    #what-i-do-description{
+        padding: 0;
+    }
+    .resume-container{
+        gap: 0px;
+    }
+    footer {
+        padding:10px;
+        flex-direction: column;
+} 
+.footer-colum {
+    width: 100%;
+}
 }
